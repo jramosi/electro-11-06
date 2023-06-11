@@ -1,0 +1,26 @@
+ :root {
+    --color-primary: #3A78F5;
+    --color-secondary: #172a4f;
+    --color-secondary-light: #dfe7f6;
+
+    --color-success: #14B8A6;
+    --color-success-dark: #109384;
+
+    --background: #ececec;
+    --color-lpz-red: #d42922;
+    --color-lpz-red-light: #F9DDDC;
+    --color-lpz-green: #009E72;
+    --color-ende-yellow: #f3cb13;
+
+}
+body{
+  background-color: var(--background);
+}
+
+/* card */
+.ant-card-head-title{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+  
